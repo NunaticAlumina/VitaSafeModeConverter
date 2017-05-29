@@ -31,7 +31,7 @@ namespace VitaSafeModeConverter {
 
                 Console.WriteLine("Input does not matches to 'eboot.bin' or 'eboot_origin.bin'.");
                 return;
-            } while(true);
+            } while(false);
 
             ProcessSafeMode(path);
 
