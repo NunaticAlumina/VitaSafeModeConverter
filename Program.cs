@@ -31,6 +31,8 @@ namespace VitaSafeModeConverter {
             }
 
             ProcessSafeMode(path);
+
+            Console.WriteLine("Done.");
         }
     }
 }
